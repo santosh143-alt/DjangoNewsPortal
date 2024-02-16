@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>News </title>
+    <link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "css/jobs1.css" %}">
+  </head>
+  <body>
+    <h1>{{head_msg}}</h1>
+    <ul>
+      <li>{{m1}}</li>
+      <li>{{m2}}</li>
+      <li>{{m3}}</li>
+      <li>{{m4}}</li>
+      <li>{{m5}}</li>
+    </ul>
+    {% if type == 'movies' %}
+      <img src="{% static "images/image2.jfif" %}" alt="">
+      <img src="{% static "images/image3.jfif" %}" alt="">
+      <img src="{% static "images/image4.jfif" %}" alt="">
+      <img src="{% static "images/image5.jfif" %}" alt="">
+    {% elif type == 'sports' %}
+      <img src="{% static "images/i1.jfif" %}" alt="">
+      <img src="{% static "images/i2.jfif" %}" alt="">
+      <img src="{% static "images/i2.jfif" %}" alt="">
+      <img src="{% static "images/i4.jfif" %}" alt="">
+
+    {% elif type == 'politics' %}
+      <img src="{% static "images/im1.jfif" %}" alt="">
+      <img src="{% static "images/im2.jfif" %}" alt="">
+      <img src="{% static "images/im3.jfif" %}" alt="">
+      <img src="{% static "images/im4.jfif" %}" alt="">
+    {% endif %}
+  </body>
+</html>

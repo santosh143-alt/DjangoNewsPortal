@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+
+}
+h1 {
+  color: red;
+  border: red solid 10px;
+  font-size: 70px;
+}
+ul {
+  font-size: 40px;
+}
+img {
+    height: 250px;
+    width: 350px;
+    border: 10px red solid;
+    padding: 4px;
+}

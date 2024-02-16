@@ -1,0 +1,14 @@
+.container .jumbotron {
+  margin-top: 150px;
+  background: #abf490;
+}
+body {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.display-4 {
+  font-size: 100px;
+  color: red;
+  border: 10px red solid;
+}
